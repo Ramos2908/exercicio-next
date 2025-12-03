@@ -4,7 +4,6 @@ export default function Footer(){
     const anoAtual = new Date().getFullYear();
 
     return (
-        
         <footer className={styles.footer}>
         <p>
             &copy; {anoAtual} Instituto Federal da Paraiba (IFPB).
